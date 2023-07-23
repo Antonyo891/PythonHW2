@@ -20,4 +20,7 @@ def all_divisors (number):
     return divisors
 number = random.randint(1,100000)
 print(f'Делители числа {number} - {all_divisors(number)}')
+print(f'Делители числа 23436 - {all_divisors(23436)}')
+print(f'Делители числа 190187200 - {all_divisors(190187200)}')
+print(f'Делители числа 380457890232 - {all_divisors(380457890232)}')
 print(f"Время выполнения кода - {time.time()-time1} секунд")
