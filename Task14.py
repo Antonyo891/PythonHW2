@@ -7,4 +7,4 @@ while 2**power < number:
     power+=1
     if 2**power <=number:
         print (power, end=' ')
-print(1)
+print()
