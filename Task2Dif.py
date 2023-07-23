@@ -22,6 +22,6 @@ for _ in range (100):
     
     predicat1 = bool(predicat1)
     predicat2 = bool(predicat2)
-    print (predicat2==predicat1, end=' , ')
+    print (predicat2==predicat1, end=', ')
 print()
 print(f"Время выполнения кода - {time.time()-time1} секунд")
